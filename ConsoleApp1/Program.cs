@@ -17,10 +17,12 @@ namespace ConsoleApp1
                 bool isEmployed = false;
                 double weight = 78.65;
 
-            Console.WriteLine($"Имя: {name}");
+            /*Console.WriteLine($"Имя: {name}");
             Console.WriteLine($"Возраст: {age}");
             Console.WriteLine($"Вес: {weight}");
-            Console.WriteLine($"Работает: {isEmployed}");
+            Console.WriteLine($"Работает: {isEmployed}");*/
+            Console.WriteLine("Имя: {0}  Возраст: {1}  Рост: {2}", name, age, weight);
+            Console.WriteLine($"Имя: {name}  Возраст: {age}  Рост: {weight}");
             Console.ReadKey();
         }
     }
